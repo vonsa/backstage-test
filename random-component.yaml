@@ -1,16 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TouchpointPlatformConsole
+  name: some-component
   tags:
     - automation
-    - btp
-    - touchpoint
     - assembly
   annotations:
     backstage.io/adr-location: docs/adr
 spec:
   type: website
-  owner: group:Promptus
+  owner: group:guest
   lifecycle: experimental
-  system: TouchpointAutomation
+  system: some-system
